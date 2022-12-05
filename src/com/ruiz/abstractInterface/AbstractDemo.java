@@ -21,6 +21,17 @@ public class AbstractDemo {
 		double area1 = r1.calculateArea();
 		double area2 =r2.calculateArea(); 
 		System.out.println(obj1.max(area1, area2));
+		System.out.println();
+		
+		Circle c1 = new Circle();
+		Circle c2 = new Circle();
+		c1.setRadius(1);
+		c2.setRadius(2);
+		
+		double cArea1 = c1.calculateArea();
+		double cArea2 = c2.calculateArea();
+		System.out.println(c1.max(cArea1, cArea2));
+		System.out.println();
 		
 		sortList();
 	
